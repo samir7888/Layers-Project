@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="w-full flex h-[90px] justify-center items-center">
+      <div class="flex w-[90%] justify-between items-center">
+        <div class="hidden small:flex">
+          <img src="assets/asset 33.svg" alt="" />
+        </div>
+        <div>
+          <img class="w-16 cursor-pointer" src="assets/asset 0.jpeg" alt="" />
+        </div>
+        <div class="flex justify-between gap-11">
+          <div
+            class="flex items-center justify-center gap-10 font-semibold small:hidden"
+          >
+            <div class="cursor-pointer w-fit relative group">Mobile Skins
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[2px] " ></div>
+            </div>
+            <div class="cursor-pointer w-fit relative group">Laptops Skins
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[2px] " ></div></div>
+            <div class="cursor-pointer w-fit relative group">Skin Collections
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[2px] " ></div></div>
+            <div class="cursor-pointer w-fit relative group">How to Apply
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[2px] " ></div></div>
+            <div class="cursor-pointer w-fit relative group">Login
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[2px] " ></div></div>
+          </div>
+
+          <div class="flex justify-center items-center gap-10 vsmall:gap-6">
+            <img class="w-7 cursor-pointer" src="assets/asset 34.svg" alt="" />
+            <p class="vsmall:hidden cursor-pointer">
+              <i class="fa-solid fa-magnifying-glass scale-150"></i>
+            </p>
+            <i class="fa-solid fa-bag-shopping scale-150 cursor-pointer"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- big image wala part -->
+
+    <section class="w-full min-h-full">
+      <img
+        class="w-full min-h-full extrasmall:hidden cursor-pointer"
+        src="assets/asset 1.jpeg"
+        alt=""
+      />
+      <img
+        class="w-full min-h-full hidden extrasmall:flex"
+        src="assets/asset 2.jpeg"
+        alt=""
+      />
+    </section>
+
+    <!-- google part -->
+
+    <section class="w-full h-fit flex justify-center items-center">
+      <div class="w-[90%] flex-col">
+        <div class="text-center text-3xl p-4"><h1>SELECT YOUR BRAND</h1></div>
+
+        <div class="flex justify-between vsmall:grid vsmall:grid-cols-2">
+          <div class="flex justify-center items-center">
+            <img class="w-28 cursor-pointer" src="assets/asset 5.png" alt="" />
+          </div>
+          <div class="flex justify-center items-center">
+            <img class="w-28 cursor-pointer" src="assets/asset 6.png" alt="" />
+          </div>
+          <div class="flex justify-center items-center">
+            <img class="w-28 cursor-pointer" src="assets/asset 7.png" alt="" />
+          </div>
+          <div class="flex justify-center items-center">
+            <img class="w-28 cursor-pointer" src="assets/asset 8.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured part -->
+
+    <section class="w-full min-h-[500px] justify-center items-center">
+      <div class="w-full flex-col">
+        <div
+          class="text-center text-3xl p-6 vsmall:w-full vsmall:p-0 vsmall:mb-4"
+        >
+          <h1>FEATURED COLLECTIONS</h1>
+        </div>
+        <div
+          class="w-full flex justify-between items-center gap-6 vsmall:flex-col vsmall:gap-1"
+        >
+          <div class="flex flex-col justify-center items-center gap-1">
+            <img class=" " src="assets/asset 35.jpeg" alt="" />
+            <button
+              class="text-white bg-black text-center py-1 px-2 hover:bg-white hover:text-black transition-all duration-300"
+            >
+              Seize The Day
+            </button>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-1">
+            <img class=" " src="assets/asset 36.jpeg " alt="" />
+            <button
+              class="text-white bg-black text-center py-1 px-2 hover:bg-white hover:text-black transition-all duration-300"
+            >
+              Dive In
+            </button>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-1">
+            <img class=" " src="assets/asset 37.jpeg " alt="" />
+            <button
+              class="text-white bg-black text-center py-1 px-2 hover:bg-white hover:text-black transition-all duration-300"
+            >
+              Hiding something ?
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobiles part -->
+
+    <section class="w-full flex justify-center items-center">
+      <div class="w-[81%] flex flex-col justify-between items-center py-4 vsmall:w-full">
+        <div class="text-3xl py-10"><h1>Best Selling</h1></div>
+
+        <div class="w-full grid grid-cols-4 small:grid-cols-2 ">
+          <div class="">
+            <img class="min-w-full" src="assets/asset 9.jpeg" alt="" />
+            <p class="text-center">Grafitti</p>
+          </div>
+          <div>
+            <img src="assets/asset 10.jpeg" alt="" />
+            <p class="text-center">Before Sunset</p>
+          </div>
+          <div>
+            <img src="assets/asset 11.jpeg" alt="" />
+            <p class="text-center">Cultivate kindness</p>
+          </div>
+          <div>
+            <img class="min-w-full" src="assets/asset 12.png" alt="" />
+            <p class="text-center">Metamor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full flex justify-center items-center">
+      <div class="w-[81%] flex flex-col justify-between items-center py-4">
+        <div class="text-3xl py-10 vsmall:text-2xl"><h1>Layers Original Designs</h1></div>
+
+        <div class="w-full grid grid-cols-4 small:grid-cols-2">
+          <div class="">
+            <img class="" src="assets/asset 14.jpeg" alt="" />
+            <p class="text-center">Black Crack</p>
+          </div>
+          <div>
+            <img src="assets/asset 15.jpeg" alt="" />
+            <p class="text-center">Astro Rainbow</p>
+          </div>
+          <div>
+            <img src="assets/asset 16.jpeg" alt="" />
+            <p class="text-center">Cyberhud</p>
+          </div>
+          <div>
+            <img src="assets/asset 17.jpeg" alt="" />
+            <p class="text-center">Machina Hud</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full flex justify-center items-center">
+      <div class="w-[81%] flex flex-col justify-between items-center py-4 vsmall:w-full">
+        <div class="text-3xl py-10 vsmall:text-2xl"><h1>LAPTOP SKINS</h1></div>
+
+        <div class="w-full grid grid-cols-3 vsmall:grid-cols-2">
+          <div class="">
+            <img class="" src="assets/asset 20.jpeg" alt="" />
+            <p class="text-center mb-4">Magma</p>
+          </div>
+          <div>
+            <img src="assets/asset 21.jpeg" alt="" />
+            <p class="text-center mb-4">Cranberry Abstract</p>
+          </div>
+          <div class="vsmall:hidden">
+            <img src="assets/asset 22.jpeg" alt="" />
+            <p class="text-center mb-4">Oceanic</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- second big image -->
+
+    <section class="w-full min-h-full flex justify-center items-center py-4">
+      <img
+        class="w-[90%] min-h-full"
+        src="assets/asset 24.jpeg"
+        alt=""
+      />
+      
+    </section>
+
+<!-- INSTAGRAM -->
+
+    <section class="w-full flex justify-center items-center">
+      <div class="w-full flex flex-col justify-between items-center py-4 vsmall:w-full">
+        <div class="text-xl mb-7 vsmall:text-xl "><p>FOLLOW US ON INSTAGRAM</p></div>
+
+        <div class=" w-fit grid grid-cols-4 extrasmall:grid-cols-2 gap-1">
+          <div class=" group relative w-full h-full">
+            <img class="w-fit relative" src="assets/asset 25.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group ">
+            <img src="assets/asset 26.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img src="assets/asset 27.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img class="" src="assets/asset 25.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img src="assets/asset 29.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img src="assets/asset 30.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img src="assets/asset 31.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          <div class="relative group">
+            <img src="assets/asset 32.jpeg" alt="" />
+            <div class="h-full hidden group-hover:flex w-full bg-[#0000007a] transition-all duration-[0.2s] justify-center items-center top-0 absolute">
+              <p>
+                <i class="fa-brands fa-instagram text-white text-2xl"></i>
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- delivery -->
+
+    <section class="w-full h-fit flex justify-center items-center my-8 vsmall:my-0">
+      <div class="min-w-[90%] flex justify-between items-center vsmall:py-10 px-4 vsmall:flex-col">
+
+
+        <div class="w-full flex flex-col justify-center items-center text-center gap-5 px-8">
+          <img class="w-20" src="assets/asset 51.svg" alt="">
+          <p class="text-lg">Same Day Dispatch</p>
+          <p class="mb-4">All orders placed before 12pm Monday to Friday are dispatched same day.</p>
+        </div>
+        <div class="w-full flex flex-col justify-center items-center text-center gap-5 px-8">
+          <img class="w-20" src="assets/asset 52.svg" alt="">
+          <p class="text-lg">Free & Fast Delivery</p>
+          <p class="mb-4">Orders to metro cities reach in 2-3 working days.</p>
+        </div>
+        <div class="w-full flex flex-col justify-center items-center text-center gap-5 px-8">
+          <img class="w-20" src="assets/asset 53.svg" alt="">
+          <p class="mb-4">Cancellation Policy</p>
+          <p>within 12 hours of placing the order</p>
+        </div>
+
+      </div>
+    </section>
+
+
+      <!-- footerr -->
+
+    <footer class="w-full h-fit flex flex-col justify-between  bg-[#E7E7E7] ">
+      <div class="py-[30px] min-w-[95%] flex justify-between px-[60px] small:grid small:grid-cols-2 small:gap-14 extrasmall:flex extrasmall:flex-col extrasmall:px-4 ">
+        <div class="flex flex-col gap-3">
+          <p class="mb-[21px]">Vision</p>
+          <p>Creativity, Expression, & <br> Exploration</p>
+        </div>
+        <div class="min-w-[211px] flex flex-col gap-3">
+          <p class="mb-[21px]">Pages</p>
+          <div class="relative w-fit group">About us
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div>
+        </div>
+          <div class="relative w-fit group">Contact us
+            <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">Terms and condition
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">Privacy policy
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">Refunds/Cancellations/Shipping Policy
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">FAQ
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+        </div>
+        <div class="min-w-[211px] flex flex-col gap-3">
+          <p class="mb-[21px]">My Accounts</p>
+          <div class="relative w-fit group">Login
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">Register
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          <div class="relative w-fit group">Track Order
+          <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+        </div>
+        <div class="min-w-[211px] flex flex-col gap-3">
+          <p class="mb-[21px]">Follow us</p>
+          <div class="flex gap-3">
+            <img class="w-4" src="assets/asset 38.svg" alt="">
+            <div class="relative w-fit group">Twitter
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          </div>
+          <div class="flex gap-3">
+            <img class="w-4" src="assets/asset 39.svg" alt="">
+            <div class="relative w-fit group">Facebook
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          </div>
+          <div class="flex gap-3">
+            <img class="w-4" src="assets/asset 40.svg" alt="">
+            <div class="relative w-fit group">YouTube
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          </div>
+          <div class="flex gap-3">
+            <img class="w-4" src="assets/asset 41.svg" alt="">
+            <div class="relative w-fit group">Instagram
+              <div class="after:content-[''] scale-x-0 group-hover:scale-x-100 origin-left absolute transition-all duration-450 w-full bg-black h-[1.5px] " ></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full h-[1px]  bg-[#5a58587e]"></div>
+      <p class="pl-16 ">Copyright© 2024 Layers</p>
+    </footer>
+  </body>
+</html>
